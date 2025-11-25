@@ -3,7 +3,7 @@ import sys
 import matplotlib.pyplot as x
 from collections import Counter
 WORD_FILE = "words.txt"
-MAX_ATTEMPTS = 3
+MAX_ATTEMPTS = 6
 def load_words(filename = WORD_FILE):
     try:
         with open(filename) as f:
